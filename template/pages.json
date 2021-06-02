@@ -1,0 +1,78 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/tabBar/discover/index",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		},
+		{
+			"path": "pages/tabBar/scene/index",
+			"style": {
+				"navigationBarTitleText": "场景"
+			}
+		},
+		{
+			"path": "pages/tabBar/shopping/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/tabBar/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智能家居",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#19be6b",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+			{
+				"pagePath": "pages/tabBar/discover/index",
+				"iconPath": "static/tabBar/index.png",
+				"selectedIconPath": "static/tabBar/index-selected.png",
+				"text": "发现"
+			}, 
+			{
+				"pagePath": "pages/tabBar/scene/index",
+				"iconPath": "static/tabBar/workshop.png",
+				"selectedIconPath": "static/tabBar/workshop-selected.png",
+				"text": "场景"
+			},
+			{
+				"pagePath": "pages/tabBar/shopping/index",
+				"iconPath": "static/tabBar/message.png",
+				"selectedIconPath": "static/tabBar/message-selected.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/tabBar/my/index",
+				"iconPath": "static/tabBar/center.png",
+				"selectedIconPath": "static/tabBar/center-selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
